@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #b0ebb3;
+    padding: 0;
+    border: 0;    
+    box-sizing: border-box;
+}
+
+
+header h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    color: #5f4ba8;
+}
+
+
+.container {
+    background-color: #767a8a;
+    max-width: 30rem;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0px 15px 50px rgba(0, 0, 0, 100);
+}
+
+form {
+    max-width: 30rem;
+    margin: 0 auto;
+}
+
+.error {
+    display: none;
+    font-size: .75rem;
+}
+
+span {
+    color: #d42a1e;
+}
+
+.form-campo input {
+    width: 100%;
+    display: block;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: none;    
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.form-campo input::placeholder {
+    color: #c5c5c5;
+    font-weight: 400;
+}
+
+.form-campo label {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+button {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    padding: .5rem 0;
+    margin-top: 2em;
+    border: none;
+    background-color: #40269e;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: .375rem;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #604f9c;
+}
+
+.espaco {
+    height: 17.7vh;
+}
+
+footer {
+    color: #ffff;
+    background-color: #40269e;
+    text-align: center;
+    padding: 0.5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

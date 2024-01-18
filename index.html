@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>    
+    <link rel="stylesheet" href="main.css">
+
+    <title>Formulário de Cadastro</title>
+    
+</head>
+<body>
+    <header>
+        <h1>Formulário De Cadastro</h1>
+    </header>
+    <div class="container">
+        <form id="form-cadastro">
+            <div class="form-campo">
+                <label for="nome">Nome Completo:</label>
+                <input 
+                    type="text" 
+                    name="nome" 
+                    placeholder="Digite Seu Nome..." 
+                    class="error" 
+                    aria-describedby="nome-error">
+                <span id="nome-error" class="error">Por favor, insira seu nome completo.</span>
+            </div>
+            <div class="form-campo">
+                <label for="email">E-mail:</label>
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    placeholder="exemplo@email.com" 
+                    class="error" 
+                    aria-describedby="email-error">
+                <span id="email-error" class="error">Por favor, insira seu E-mail corretamente.</span>
+            </div>
+            <div class="form-campo">
+                <label for="telefone">Telefone:</label>
+                <input 
+                    type="tel" 
+                    id="telefone" 
+                    name="telefone" 
+                    placeholder="(00) 00000-0000" 
+                    maxlength="16" 
+                    class="error" 
+                    aria-describedby="telefone-error">
+                <span id="telefone-error" class="error">Por favor, insira seu Telefone corretamente.</span>
+            </div>
+            <div class="form-campo">
+                <label for="CPF">CPF:</label>
+                <input 
+                    type="text" 
+                    id="CPF" 
+                    name="cpf" 
+                    placeholder="000.000.000-00" 
+                    maxlength="14" 
+                    class="error" 
+                    aria-describedby="CPF-error">
+                <span id="CPF-error" class="error">Por favor, insira seu CPF corretamente.</span>
+            </div>
+            <div class="form-campo">
+                <label for="endereco">Endereço:</label>
+                <input 
+                    type="text" 
+                    id="endereco" 
+                    name="endereco" 
+                    placeholder="Digite Seu Endereço Completo" 
+                    class="error" 
+                    aria-describedby="endereco-error" 
+                    aria-invalid="true">
+                <span id="endereco-error" class="error">Por favor, insira o seu endereço corretamente.</span>
+            </div>
+            <div class="form-campo">
+                <label for="cep">CEP:</label>
+                <input 
+                    type="text" 
+                    id="CEP" 
+                    name="cep" 
+                    placeholder="00000-000" 
+                    maxlength="9" class="error" 
+                    aria-describedby="CEP-error">
+                <span id="CEP-error" class="error">Por favor, insira o CEP de sua cidade corretamente</span>
+            </div>
+            
+                <button type="submit" value="Cadastrar">Cadastrar</button>
+            
+        </form>
+    </div>
+
+    <div class="espaco"></div>
+
+    <footer>
+        <p>
+            2024 © Formulario de Cadastro - Todos os direitos reservados
+        </p>
+    </footer>
+
+    <script src="./aquivos js/jquery-3.7.1.min.js"></script>
+    <script src="./aquivos js/jquery.mask.min.js"></script>
+    <script src="./aquivos js/jquery.validate.min.js"></script>
+    <script src="./aquivos js/messages_pt_BR.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
